@@ -1,0 +1,18 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+
+
+[![Travis-CI Build Status](https://travis-ci.org/dmpe/slideshare.svg?branch=master)](https://travis-ci.org/dmpe/slideshare.svg)
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
