@@ -7,7 +7,7 @@
 get_user_favorite(username_for = "")
 }
 \examples{
-asdqwdq <- get_user_favorite(username_for = "F789GH")
+asdqwdq <- get_user_favorite(username_for = "rashmi")
 
 }
 

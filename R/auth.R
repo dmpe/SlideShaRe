@@ -26,6 +26,30 @@ auth_shared_secret <- function(x) {
   } else tmp
 }
 
+#' @rdname auth_api_key
+#' @export
+auth_username <- function(x) {
+  tmp <- if(is.null(x)) {
+    Sys.getenv("username", "")
+  } else x
+
+  if(tmp == "") {
+    getOption("username", stop("you need to set up username"))
+  } else tmp
+}
+
+
+#' @rdname auth_api_key
+#' @export
+auth_password <- function(x) {
+  tmp <- if(is.null(x)) {
+    Sys.getenv("password", "")
+  } else x
+
+  if(tmp == "") {
+    getOption("password", stop("you need to set up password"))
+  } else tmp
+}
 
 #' @rdname auth_api_key
 #' @export

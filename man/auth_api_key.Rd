@@ -2,13 +2,19 @@
 % Please edit documentation in R/auth.R
 \name{auth_api_key}
 \alias{auth_api_key}
+\alias{auth_password}
 \alias{auth_shared_secret}
+\alias{auth_username}
 \alias{authentication_slideshare}
 \title{SlideShare authentication}
 \usage{
 auth_api_key(x)
 
 auth_shared_secret(x)
+
+auth_username(x)
+
+auth_password(x)
 
 authentication_slideshare()
 }

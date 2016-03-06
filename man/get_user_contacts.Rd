@@ -4,10 +4,16 @@
 \alias{get_user_contacts}
 \title{Returns user contacts}
 \usage{
-get_user_contacts(username_for = "", limit = NULL, offset = NULL)
+get_user_contacts(username_for = "", username = auth_username(NULL),
+  password = auth_password(NULL))
+
+get_user_contacts(username_for = "", username = auth_username(NULL),
+  password = auth_password(NULL))
 }
 \examples{
 asdqwdq <- get_user_contacts(username_for = "rashmi")
+
+asdqwdq <- get_user_groups(username_for = "rashmi")
 
 }
 
