@@ -11,7 +11,7 @@ vignette: >
 
 ```{r}
 library(SlideShaRe)
-options(API_key = "nRWFyyZI", Shared_Secret = "dmvSBNkR")
+options(API_key = "nRWFyyZI", Shared_Secret = "dmvSBNkR", username = "f789gh", password = "WRONG")
 ```
 
 ```{r}
@@ -26,5 +26,10 @@ head(asdqwdq)
 ```{r}
 asdasdqwdq <- get_user_contacts(username_for = "rashmi")
 head(asdasdqwdq)
+```
+
+```{r}
+sadasd <- get_user_tags(username = "f789gh", password = "")
+head(sadasd)
 ```
 
