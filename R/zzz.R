@@ -6,6 +6,7 @@ api_calls <- function(){
   return(server_list)
 }
 
+#' @noRd
 #' @import openssl
 hash_concat <- function() {
   concatinatedString <- paste0(auth_shared_secret(NULL), unix_timestamp())
@@ -13,6 +14,7 @@ hash_concat <- function() {
   return(hash)
 }
 
+#' @noRd
 #' @import lubridate
 unix_timestamp <- function() {
   return(round(as.numeric(lubridate::now())))

@@ -2,16 +2,13 @@
 % Please edit documentation in R/slideshow.R
 \name{get_slideshow}
 \alias{get_slideshow}
-\title{Returns user tags}
+\title{Get Slideshow Information}
 \usage{
-get_slideshow(slideshow_id, slideshow_url, username = auth_username(NULL),
-  password = auth_password(NULL), exclude_tags = 0, detailed = 0,
-  get_transcript = 0)
+get_slideshow(slideshow_url = "", username = auth_username(NULL),
+  password = auth_password(NULL), exclude_tags = 1, detailed = 1,
+  get_transcript = 1)
 }
 \arguments{
-\item{slideshow_id}{- either slideshow_id or its URL in slideshow_url.
-If both are set, slideshow_id takes precedence.}
-
 \item{slideshow_url}{- URL of presentation}
 
 \item{exclude_tags}{- Exclude tags from the detailed information. 1 to exclude.}
@@ -22,7 +19,7 @@ If both are set, slideshow_id takes precedence.}
 \item{get_transcript}{- 0 (default) or 1 to include}
 }
 \examples{
-slideshow <- get_slideshow(slideshow_id = "13343768")
+slideshow <- get_slideshow(slideshow_url = "http://www.slideshare.net/EdithYeung/8-tips-for-scaling-mobile-users-in-china-by-edith-yeung/")
 
 }
 

@@ -33,3 +33,8 @@ sadasd <- get_user_tags(username = "f789gh", password = "")
 head(sadasd)
 ```
 
+```{r}
+slideshow <- get_slideshow(slideshow_url = "http://www.slideshare.net/EdithYeung/8-tips-for-scaling-mobile-users-in-china-by-edith-yeung/")
+slideshow
+```
+

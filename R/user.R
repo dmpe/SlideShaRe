@@ -91,7 +91,7 @@ get_user_tags <- function(username = auth_username(NULL), password = auth_passwo
   tag <- trimws(xml_text(tag))
 
   if (length(tag) == 0) {
-    stop("User does not have any tags")
+    message("User does not have any tags")
   }
 
   return(cbind(tag, tag_count))

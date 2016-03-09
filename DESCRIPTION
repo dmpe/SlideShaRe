@@ -1,9 +1,11 @@
 Package: SlideShaRe
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Provides minimalistic Slideshare connection
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: Who to complain to <cincenko@outlook.com>
+Authors@R: c(
+    person("John", "Malc", email = "cincenko@outlook.com", role = c("aut", "cre"),  comment = "@dmpe")
+    )
+Maintainer: John Malc <cincenko@outlook.com>
 Description: More about what it does (maybe more than one line)
 License: MIT + file LICENSE
 LazyData: TRUE
