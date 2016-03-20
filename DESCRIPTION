@@ -10,6 +10,6 @@ Description: More about what it does (maybe more than one line)
 License: MIT + file LICENSE
 LazyData: TRUE
 RoxygenNote: 5.0.1
-Import: httr (>= 1.1.0), xml2 (>=0.1.2), lubridate (>= 1.5.0), openssl (>= 0.9.2)
+Import: httr (>= 1.1.0), xml2 (>=0.1.2), lubridate (>= 1.4.0), openssl (>= 0.9.2)
 Suggests: knitr, rmarkdown, testthat, roxygen2
 VignetteBuilder: knitr
